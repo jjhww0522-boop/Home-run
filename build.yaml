@@ -1,0 +1,8 @@
+targets:
+  $default:
+    builders:
+      isar_generator|isarGenerator:
+        enabled: false
+        options:
+          # 웹 빌드에서는 Isar generator 비활성화
+          enabled: false
